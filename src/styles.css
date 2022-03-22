@@ -1,0 +1,100 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+  }
+ 
+body{
+  background-color: black;
+}
+
+.queue{
+  width: 100%;
+  height: 80px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  border-top: 2px solid var(--alpha-color);
+}
+
+.queue-cover{
+width: 60px;
+height: 60px;
+border-radius: 10px;
+overflow: hidden;
+margin-right: 20px;
+position: relative;
+}
+
+.queue-cover img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.queue-cover i{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: var(--primary-color);
+}
+
+.queue-active i{
+  display: block;
+}
+
+.queue .name{
+  font-size: 22px;
+  color: white;
+  text-transform: capitalize;
+  white-space: pre;
+}
+
+.login {
+  padding: 1em;
+  margin: 2em auto;
+  width: 17em;
+  background: #fff;
+  border-radius: 3px;
+}
+
+label {
+  font-size: 10pt;
+  color: #555;
+}
+
+select {
+  padding: 10px;
+  width: 95%;
+  background: #efefef;
+  border: 0;
+  font-size: 10pt;
+  margin: 6px 0px;
+}
+
+.tombol {
+  background: #3498db;
+  color: #fff;
+  border: 0;
+  padding: 15px 120px;
+  text-align: center;
+}
+
+.img {
+  background-color: #eaeaea;
+  background-size: cover;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  border: 1 solid #eaeaea;
+  display: block; margin-left: auto; margin-right: auto;
+}
+
+
+
+
+
+
