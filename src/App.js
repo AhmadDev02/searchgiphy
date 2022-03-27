@@ -1,6 +1,6 @@
 import "./styles.css";
-import { MyComponent } from "./Form";
-import { ListComponent } from "./List";
+import { MyComponent } from "./components/Form";
+import  List from "./components/List";
 
 
 
@@ -8,7 +8,7 @@ import { ListComponent } from "./List";
   return (
   <div >
     <MyComponent name="heelo"/>
-    <ListComponent name="hello"/>  
+    <List name="hello"/>  
   </div>
   );
 }
